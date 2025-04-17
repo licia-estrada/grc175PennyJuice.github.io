@@ -98,7 +98,8 @@ h6 {
 .logo {
     display: block; 
     margin-right: auto;
-    margin-left: auto;
+    margin-left: auto; 
+    justify-content: center;
     } 
  
 .logo img {
