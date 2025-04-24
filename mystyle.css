@@ -448,11 +448,19 @@ img {
     outline: 2px solid; 
     outline-color: #5E1515; 
     }   
+
+.buttons a:hover { 
+    color: white;
+    } 
+
+.buttons :hover {
+    background-color: #5E1515;  
+    border-radius: 25px;
+    }
  
 .ingredientslist { 
      font-family: quicksand;
     } 
-   
 
 .flex-containerblog {
     display: flex;
@@ -480,8 +488,6 @@ img {
     width: 75%;
     height: 100%;
     }
-
- 
 
 @media (max-width: 1000px) { 
     .flex-container {  
