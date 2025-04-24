@@ -5,6 +5,7 @@ body {
     background-attachment: fixed;
     font-family: New Kansas, Quicksand; 
     Margin: 0;
+    min-height: 100vh; 
     } 
  
 a {
@@ -50,10 +51,78 @@ h5 {
     } 
 
 h6 {  
-   font-family: Quicksand;
+    font-family: Quicksand;
     font-weight: 400px; 
     font-size: 15px;
+    } 
+
+blog { 
+    float: center;
+    color: #5E1515;
+    padding: 30px;
+    text-align: center;
+    font-size: 30px; 
+    border-radius: 25px; 
+    width: 92.5%;    
+    }  
+
+blog h2 { 
+     margin-top: 0px;
     }
+
+article h4 { 
+    float: center; 
+    width: 95%;  
+    padding: 20px;
+    margin: auto; 
+    margin-top: -30px;
+    color: #5E1515;
+    font-size: 20px; 
+    line-height: 50px;
+    } 
+
+article h6 { 
+    float: center; 
+    height: 10px; 
+    padding: 20px; 
+    margin-top: -30px; 
+    font-size: 15px; 
+    margin-bottom: 0px; 
+    text-align: center; 
+    color: #5E1515;
+    } 
+
+article h3 { 
+   display: block;
+    text-align: right;
+    color: #5E1515;
+    } 
+
+article h5 { 
+     padding: 15px;
+    } 
+ 
+.blogimage { 
+    display: flex; 
+    justify-content: center;
+    margin-bottom: 50px;
+    } 
+
+.blogimage img { 
+    display: flex;
+    max-width: 100%; 
+    height: auto;
+    border-radius: 25px; 
+    outline: 2px solid; 
+    outline-color: #5E1515; 
+    }
+
+table { 
+    float: right; 
+    margin-right: 15px;
+    color: #5E1515; 
+    font-family: quicksand;
+    } 
  
 #container {
     width: 100%; 
@@ -147,7 +216,7 @@ h6 {
  
 .topnav a:hover {   
     border-radius: 15px; 
-    background-color: white;
+    color: white;
     }
  
 .topnav ul li a { 
@@ -167,7 +236,9 @@ h6 {
     padding: 5px;
     padding-right: 5px;
     border-radius: 10px;
-    background-color: white;
+    background-color: white; 
+    outline: 2px solid; 
+    outline-color: #5E1515;
     }  
  
 .topnav ul li ul li {
@@ -179,7 +250,11 @@ h6 {
     border-radius: 15px;  
     background-color: #131B0E; 
     color: white;
-    }
+    } 
+
+.header :hover { 
+     color: white;
+    } 
  
 .NewSlider { 
     display: block; 
@@ -371,12 +446,42 @@ img {
     text-align: center; 
     margin: auto; 
     outline: 2px solid; 
-    outline-color: #5E1515;
+    outline-color: #5E1515; 
     }   
  
 .ingredientslist { 
      font-family: quicksand;
+    } 
+   
+
+.flex-containerblog {
+    display: flex;
+    Justify-content: center; 
+    align-items: center;
+    clear: both;
+    padding: 20px; 
+    float: center;  
+    height: 100%;
+    } 
+
+.containerblog { 
+    Justify-content: center;  
+    clear: both;
+    padding: 20px;
+    float: center; 
+    justify-content: center;
+    border-radius: 25px; 
+    background-color:#E18E7F; 
+    background: linear-gradient(#E4B282, #E18E7F); 
+    outline: 2px solid; 
+    outline-color: #5E1515;  
+    padding: 25px; 
+    clear: both; 
+    width: 75%;
+    height: 100%;
     }
+
+ 
 
 @media (max-width: 1000px) { 
     .flex-container {  
@@ -411,7 +516,7 @@ img {
     list-style: none; 
     list-style-type: none; 
     margin-left: auto; 
-    margin-right: auto; 
+    margin-right: auto;  
     }
  
 .footer > div { 
