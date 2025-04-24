@@ -440,6 +440,7 @@ img {
 #copyrightsm {
     display: block; 
     margin: auto;
+    margin-bottom: 45px;
     } 
 
 .right-footer { 
@@ -448,6 +449,10 @@ img {
     padding: 20px;
     text-decoration: none;
     } 
+
+.footer img { 
+     margin-bottom: 5px;
+    }
  
 ul { 
  list-style-type: none;
