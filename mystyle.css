@@ -456,6 +456,8 @@ img {
 .buttons :hover {
     background-color: #5E1515;  
     border-radius: 25px;
+    outline: 2px solid; 
+    outline-color: #5E1515;
     }
  
 .ingredientslist { 
