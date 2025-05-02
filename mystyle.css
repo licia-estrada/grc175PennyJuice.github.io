@@ -501,6 +501,9 @@ img {
     .flex-container2 { 
         flex-wrap: wrap;
         }
+    .flex-containerc { 
+          flex-wrap: wrap; 
+        }
         } 
  
 .summary { 
@@ -512,6 +515,48 @@ img {
      
 .flex-container .col { 
     flex: 1;
+    }
+
+.flex-containerc {
+    display: flex;
+    Justify-content: center; 
+    align-items: center;
+    clear: both;
+    padding: 20px; 
+    float: center;
+    float: top;
+    margin-bottom: 275px;
+    }  
+
+.containercontact { 
+    border-radius: 25px; 
+    background-color:#E18E7F; 
+    background: linear-gradient(#E4B282, #E18E7F); 
+    outline: 2px solid; 
+    outline-color: #5E1515;  
+    padding: 25px; 
+    width: 20%; 
+    text-align: center; 
+    color: #5E1515; 
+    margin-top: 0px;
+    clear: both; 
+    Min-width: 300px;
+    }   
+
+.containercontact h2 { 
+    margin-bottom: 25px;
+    }
+
+.containerform {  
+    width: 50%; 
+    text-align: left;
+    padding: 25px;
+    font-family: quicksand; 
+    font-weight: bolder;
+    color: #131B0E; 
+    margin: 25px; 
+    margin-left: 5%; 
+    font-size: 20px;
     }
  
 .footer {
