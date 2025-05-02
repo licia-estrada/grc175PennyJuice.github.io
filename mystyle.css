@@ -21,7 +21,8 @@ h1, h2, h3 {
 h1 {
     color: white; 
     font-size: 40px;  
-    padding: 20px;
+    padding: 20px; 
+    text-shadow: #131B0E 1px 0 10px;
     }  
  
 h2 { 
