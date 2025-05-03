@@ -22,12 +22,14 @@ h1 {
     color: white; 
     font-size: 40px;  
     padding: 20px; 
-    text-shadow: #131B0E 1px 0 10px;
+    text-shadow: #131B0E 1px 0 10px; 
+    font-family: New Kansas
     }  
  
 h2 { 
     font-size: 35px; 
     margin-top: 20px;
+    font-family: New Kansas
     }
  
 h3 {
