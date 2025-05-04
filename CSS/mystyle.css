@@ -389,6 +389,14 @@ img {
     .flex-container2 { 
         flex-wrap: wrap;
         }
+      .flex-containerc { 
+          flex-wrap: wrap; 
+        } 
+    .footer { 
+        flex-wrap: wrap; 
+        } 
+    .header { 
+        flex-wrap: wrap;  
         } 
  
 .summary { 
