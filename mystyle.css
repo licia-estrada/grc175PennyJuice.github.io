@@ -506,6 +506,12 @@ img {
         }
     .flex-containerc { 
           flex-wrap: wrap; 
+        } 
+     .footer { 
+        flex-wrap: wrap; 
+        } 
+    .header { 
+        flex-wrap: wrap;  
         }
         } 
  
@@ -528,7 +534,6 @@ img {
     padding: 20px; 
     float: center;
     float: top;
-    margin-bottom: 275px;
     }  
 
 .containercontact { 
