@@ -539,10 +539,19 @@ img {
         }  
     .flex-container1 { 
          flex-wrap: wrap;
-        } 
+        }  
+     .flex-container1 > div { 
+        width: 100%;
+        }
+    
     .flex-container2 { 
         flex-wrap: wrap;
-        }
+        }  
+    
+    .flex-container2 > div { 
+        width: 100%;
+        } 
+    
     .flex-containerc { 
           flex-wrap: wrap; 
         } 
