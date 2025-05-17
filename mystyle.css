@@ -3,7 +3,7 @@
 body {  
     background: linear-gradient(#B2E6AE, #77B386); 
     background-attachment: fixed;
-    font-family: New Kansas, Quicksand, new-kansas;
+    font-family: "new-kansas", Quicksand;
     Margin: 0;
     min-height: 100vh; 
     } 
@@ -23,13 +23,17 @@ h1 {
     font-size: 40px;  
     padding: 20px; 
     text-shadow: #131B0E 1px 0 10px; 
-    font-family: new-kansas;
+    font-family: "new-kansas;
+    font-style: normal;
+    font-weight: 600;
     }  
  
 h2 { 
     font-size: 35px; 
     margin-top: 20px;
-    font-family: new-kansas;
+    font-family: "new-kansas";
+    font-style: normal;
+    font-weight: 600;
     }
  
 h3 {
