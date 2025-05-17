@@ -374,7 +374,49 @@ img {
     outline: 2px solid; 
     outline-color: #5E1515;
     }   
+
+.buttons a:hover { 
+    color: white;
+    } 
+
+.buttons :hover {
+    background-color: #5E1515;  
+    border-radius: 25px;
+    } 
+
+.addtocart { 
+    display: block;  
+    border-radius: 25px;
+    background-color: #5E1515;  
+    border-color: #5E1515;  
+    color:#5E1515;
+    font-family: quicksand;
+    font-size: 20px; 
+    width: 150px;  
+    text-align: center; 
+    margin: auto;
+    outline: 2px solid; 
+    outline-color: #5E1515; 
+}   
  
+.addtocart h5 { 
+    padding: 5px;
+    color: white;
+    font-size: 15px;
+    }
+
+.addtocart h5:hover { 
+     color: #5E1515;
+    } 
+ 
+.addtocart :hover { 
+    background-color: white;
+    outline: 2px solid; 
+    outline-color: #5E1515; 
+    border-radius: 25px;
+    }
+ 
+
 .ingredientslist { 
      font-family: quicksand;
     }
