@@ -541,7 +541,7 @@ img {
          flex-wrap: wrap;
         }  
      .flex-container1 > div { 
-        width: 100%;
+        width: 90%;
         }
     
     .flex-container2 { 
@@ -549,7 +549,7 @@ img {
         }  
     
     .flex-container2 > div { 
-        width: 100%;
+        width: 90%;
         } 
     
     .flex-containerc { 
