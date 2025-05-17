@@ -531,9 +531,11 @@ img {
     height: 100%;
     }
 
-@media (max-width: 1000px) { 
+@media (max-width: 1024px) { 
     .flex-container {  
         display: block;
+        justify-content: center;
+        width: 95%;
         }  
     .flex-container1 { 
          flex-wrap: wrap;
