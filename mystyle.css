@@ -699,6 +699,39 @@ details[open] div{
 
 .containerform h2 { 
     text-align: center;}
+
+.flex-containers {
+    display: flex;
+    Justify-content: center; 
+    align-items: center;
+    clear: both;
+    padding: 20px; 
+    float: center; 
+    margin-top: 150px;
+    }   
+
+.flex-containersdiv { 
+    border-radius: 25px; 
+    background-color:#E18E7F; 
+    background: linear-gradient(#E4B282, #E18E7F); 
+    outline: 2px solid; 
+    outline-color: #5E1515;  
+    padding: 25px; 
+    width: 30%;
+    text-align: center; 
+    color: #5E1515; 
+    clear: both;  
+    justify-content: center;
+    }  
+
+.signinform {  
+    width: 100%; 
+    text-align: left;
+    font-family: quicksand; 
+    font-weight: bolder;
+    color: #5E1515;  
+    font-size: 20px;
+    }
  
 .footer {
     display: flex; 
