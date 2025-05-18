@@ -553,8 +553,13 @@ img {
         } 
     
     .flex-containerc { 
-          flex-wrap: wrap; 
-        } 
+          flex-wrap: wrap;  
+        }  
+
+    .flex-containerc > div { 
+        width: 90%
+    }
+    
      .footer { 
         flex-wrap: wrap; 
         } 
