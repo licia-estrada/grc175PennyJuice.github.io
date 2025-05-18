@@ -591,12 +591,13 @@ img {
     outline: 2px solid; 
     outline-color: #5E1515;  
     padding: 25px; 
-    width: 20%; 
+    width: auto; 
     text-align: center; 
     color: #5E1515; 
     margin-top: 0px;
     clear: both; 
     Min-width: 300px;
+    overflow: hidden;
     }   
 
 .containerform {  
@@ -605,11 +606,20 @@ img {
     padding: 25px;
     font-family: quicksand; 
     font-weight: bolder;
-    color: #131B0E; 
-    margin: 25px; 
-    margin-left: 5%; 
+    color: #5E1515; 
+    margin: 25px;  
     font-size: 20px;
+    justify-content: center;
+    border-radius: 25px; 
+    background-color:#E18E7F; 
+    background: linear-gradient(#E4B282, #E18E7F); 
+    outline: 2px solid; 
+    outline-color: #5E1515;  
+    padding: 25px; 
     }
+
+.containerform h2 { 
+    text-align: center;}
  
 .footer {
     display: flex; 
