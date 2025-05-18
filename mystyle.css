@@ -597,17 +597,23 @@ details[open] div{
         width: 90%;
         } 
     
-    .flex-containerc { 
-          flex-wrap: wrap;  
-        }  
-
-    .flex-containerc > div { 
-        width: 90%
+   .flex-containerc > div { 
+        width: 85%; 
+        }    
+     
+    .containercontact { 
+        flex-wrap: wrap; 
+        width: 80%; 
     }
     
-     .footer { 
-        flex-wrap: wrap; 
+    } 
+    
+    .footer { 
+        flex-wrap: wrap;  
+        justify-content: center;
+        float: center;
         } 
+
     .header { 
         flex-wrap: wrap;  
         }
