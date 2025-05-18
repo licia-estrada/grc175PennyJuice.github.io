@@ -443,6 +443,31 @@ img {
     line-height: 50px;
     } 
 
+.flex-containercart{
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: left;
+    clear: both; 
+    margin: 0;
+    }    
+ 
+.flex-containercart { 
+    min-height: 900px;
+    }
+ 
+.flex-containercart > div { 
+    width: 200px; 
+    height: 900px;
+    background: #5E1515;
+    border-radius: 25px; 
+    outline: 2px solid;
+    outline-color: #5E1515; 
+    color: white;
+    margin: 10px;
+    text-align: center;
+    line-height: 20px;
+    } 
+
 #FAQ { 
     line-height: 50px;
     justify-content: center;
