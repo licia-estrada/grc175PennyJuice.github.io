@@ -629,9 +629,7 @@ details[open] div{
     .containercontact { 
         flex-wrap: wrap; 
         width: 80%; 
-    }
-    
-    } 
+        } 
     
     .footer { 
         flex-wrap: wrap;  
