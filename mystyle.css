@@ -600,29 +600,42 @@ details[open] div{
     width: 75%;
     height: 100%;
     }
+@media (max-width: 1024px) {  
+    .flex-container {   
+        display: block;
+        justify-content: center;
+        width: 95%;
+    }
+    } 
 
-@media (max-width: 1024px) { 
+@media (max-width: 1000px) { 
     .flex-container {  
         display: block;
         justify-content: center;
         width: 95%;
         }  
+    
     .flex-container1 { 
-         flex-wrap: wrap;
-        }  
-     .flex-container1 > div { 
+        flex-wrap: wrap; 
+        } 
+     
+    .flex-container1 > div { 
         width: 90%;
         }
     
     .flex-container2 { 
         flex-wrap: wrap;
-        }  
-    
+        }   
+     
     .flex-container2 > div { 
         width: 90%;
         } 
     
-   .flex-containerc > div { 
+    .flex-containerc { 
+          flex-wrap: wrap;
+        }  
+     
+    .flex-containerc > div { 
         width: 85%; 
         }    
      
@@ -635,12 +648,14 @@ details[open] div{
         flex-wrap: wrap;  
         justify-content: center;
         float: center;
-        } 
-
+        }   
+        }  
+ 
+@media (max-width: 370px) { 
     .header { 
-        flex-wrap: wrap;  
-        }
-        } 
+    flex-wrap: wrap; 
+    }
+    }
  
 .summary { 
     display: flex; 
